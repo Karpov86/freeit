@@ -7,4 +7,4 @@
 
 ### From file.doc
 
-- [Task1](/lesson2/src/homework/Task1)
+- [Task1](/lesson2/src/homework/Task1.java)
