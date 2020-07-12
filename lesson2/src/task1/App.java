@@ -1,9 +1,9 @@
-package task;
+package task1;
 
 import java.util.Scanner;
 
-import static task.Task1.amountNumber;
-import static task.Task1.isPositive;
+import static task1.Task1.amountNumber;
+import static task1.Task1.isPositive;
 
 public class App {
     public static void main(String[] args) {
