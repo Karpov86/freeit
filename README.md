@@ -7,7 +7,7 @@
 
 | From file.doc                            | From "Metodichka"`                         |
 |------------------------------------------|--------------------------------------------|
-| [Task1](/lesson2/src/homework/Task1.java)| [Task5](/lesson2/src/metodichka/Task5.java)|
+| [Task1](/lesson2/src/homework/Task1.java)| [Task4](/lesson2/src/metodichka/Task4.java)|
 | [Task2](/lesson2/src/homework/Task2.java)| [Task5](/lesson2/src/metodichka/Task5.java)|
 | [Task3](/lesson2/src/homework/Task3.java)|
 | [Task4](/lesson2/src/homework/Task4.java)|
