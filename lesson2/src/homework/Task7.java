@@ -8,15 +8,47 @@ package homework;
 public class Task7 {
     public static void main(String[] args) {
 
-        int i = 3;
-        howManyProgrammers(i);
+        for (int i = 0; i <= 32; i++) {
+            howManyProgrammers(i);
+        }
+    }
+
+    private static int lastInt(int i) {
+        while (i > 10) {
+            i %= 10;
+        }
+        return i;
+    }
+
+    private static boolean isLastMatchEleven(int i) {
+        while (i > 100) {
+            i %= 100;
+        }
+        return i == 11;
+    }
+
+    private static int lastTwoInt(int i) {
+        while (i > 100) {
+            i %= 100;
+        }
+        return i;
     }
 
     public static void howManyProgrammers(int i) {
+        int k = i;
+        if (lastInt(i) == 1) {
+            k = 1;
+        }
+        if (lastTwoInt(i) > 20){
+            k = lastInt(i);
+        }
+        if (isLastMatchEleven(i)) {
+            k = 5;
+        }
         if (i <= 0) {
             System.out.println("Ну хоть один-то должен быть!");
         } else {
-            switch (i) {
+            switch (k) {
                 case 1:
                     System.out.println(i + " програмист");
                     break;
